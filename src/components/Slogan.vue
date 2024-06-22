@@ -2,7 +2,7 @@
     <section class="flex flex-col max-w-screen-2xl mx-auto justify-center items-center gap-y-10 w-full h-full lg:p-20 md:p-14 p-12">
         <h1 ref="tittle" class="lg:text-2xl md:text-xl text-lg text-white text-center font-semibold"> Why work with us?</h1>
         <div class="flex flex-col lg:flex-row justify-center h-full gap-y-10 lg:gap-10 items-center w-full">
-            <main v-for="(data, index) in whyData" :key="index" ref="cards" class="bg-[#1c1c1c] flex flex-col justify-center items-center w-full px-10 py-16 rounded-lg gap-y-5">
+            <main v-for="(data, index) in whyData" :key="index" ref="cards" class="bg-[#1c1c1c] flex flex-col justify-center items-center w-full md:px-10 md:py-16 p-5 rounded-lg gap-y-5">
                 <h1 class="lg:text-xl md:text-lg text-base text-white text-center">{{ data.tittleTwo }}</h1>
                 <h1 class="md:text-sm text-sm text-white text-center">{{ data.description }}</h1>
                 <p class="md:text-sm text-sm text-white bg-green-600 px-6 py-3 rounded-lg">{{ data.tittle }}</p>

@@ -85,7 +85,7 @@ const bottomHero = ref(null)
 
 gsap.registerPlugin(ScrollTrigger)
 
-onMounted(() => {
+const animateOnDekstop = () => {
     gsap.fromTo(topHero.value.children, {opacity: 0, y: 25}, {opacity: 1, y: 0, duration: 1, stagger: 0.3, delay: 0.2, ease: "power3.out"})
     bottomHero.value.childNodes.forEach(child => {
         gsap.fromTo(child, {opacity: 0, y: 50}, {opacity: 1, y: 0, duration: 1, stagger: 0.3, delay: 0.2, ease: "power3.out", scrollTrigger: {
@@ -94,6 +94,16 @@ onMounted(() => {
             end: "center center"
         }})
     })
+}
+
+const animateOnMobile = () => {
+    gsap.fromTo([topHero.value.children, bottomHero.value.children], {opacity: 0, y: 25}, {opacity: 1, y: 0, duration: 0.7, stagger: 0.3, delay: 0.2, ease: "power3.out"})
+}
+
+const isDekstop = window.matchMedia("(min-width: 1024px)").matches
+
+onMounted(() => {
+    isDekstop ? animateOnDekstop() : animateOnMobile()
 });
 
 </script>

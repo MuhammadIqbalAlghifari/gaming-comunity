@@ -46,7 +46,7 @@ const animateOnDekstop = () => {
 
 const animateOnMobile = () => {
     animateOnScroll(leftHero.value.children, {opacity: 0, y: 10})
-    animateOnScroll(rightHero.value.children, {opacity: 0, y: 100})
+    animateOnScroll(rightHero.value.children, {opacity: 0, y: 1000})
 }
 
 onMounted(() => {
