@@ -1,5 +1,5 @@
 <template>
-    <section class="lg:p-10 md:p-14 p-12 w-full max-w-screen-2xl mx-auto">
+    <section class="lg:p-20 md:p-14 p-12 w-full max-w-screen-2xl mx-auto">
         <div ref="contactUs" class="flex flex-col gap-y-1.5 md:gap-3 lg:gap-y-5 py-5 justify-center lg:items-start items-center">
             <h1 class="text-white lg:text-3xl md:text-xl text-base tracking-wide leading-loose font-medium">Lorem Ipsum</h1>
             <p class="text-white lg:text-sm text-xs tracking-wide max-w-lg lg:text-left text-center leading-loose lg:leading-loose">Lorem Ipsum is simply dummy text of the printing and typersetting industry.</p>

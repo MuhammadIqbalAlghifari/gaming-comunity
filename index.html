@@ -5,60 +5,9 @@
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaming Comunity</title>
-    <style>
-      .loader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: black;
-      }
-
-      .loader div {
-        width: 15px;
-        aspect-ratio: 1;
-        border-radius: 50%;
-        animation: l5 1s infinite linear alternate;
-      }
-
-      @keyframes l5 {
-        0% {
-          box-shadow: 20px 0 #fff, -20px 0 #fff2;
-          background: #fff;
-        }
-        33% {
-          box-shadow: 20px 0 #fff, -20px 0 #fff2;
-          background: #fff2;
-        }
-        66% {
-          box-shadow: 20px 0 #fff2, -20px 0 #fff;
-          background: #fff2;
-        }
-        100% {
-          box-shadow: 20px 0 #fff2, -20px 0 #fff;
-          background: #fff;
-        }
-      }
-    </style>
   </head>
   <body class="bg-black">
-    <div id="loader" class="loader">
-      <div></div>
-    </div>
     <div id="app"></div>
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        // Remove the loader once the document is fully loaded
-        const loader = document.getElementById('loader');
-        if (loader) {
-          loader.style.display = 'none';
-        }
-      });
-    </script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
