@@ -10,8 +10,8 @@
                         <p class="text-white lg:text-sm text-xs tracking-wide max-w-md lg:text-left text-center leading-loose lg:leading-loose">Subscribe to receive the latest news and updates about TDA. We promise not to spam you!</p>
                     </div>
                     <div class="bg-white lg:p-1.5 p-0.5 rounded-md flex justify-center items-center">
-                        <input type="text" placeholder="Enter email address" class="lg:text-sm text-xs w-auto focus:outline-none md:px-6 px-3 text-gray-700">
-                        <button class="bg-orange-500 p-3 rounded-md text-white lg:text-sm text-xs">Continue</button>
+                        <input type="text" placeholder="Enter email address" class="lg:text-sm text-[8px] w-auto focus:outline-none sm:px-6 px-3 text-gray-700">
+                        <button class="bg-orange-500 sm:p-3 p-1.5 rounded-md text-white lg:text-sm text-[8px]">Continue</button>
                     </div>
                 </div>
             </div>
