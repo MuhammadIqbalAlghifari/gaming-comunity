@@ -6,7 +6,6 @@ import OurTeam from '@/components/OurTeam.vue';
 import ContactUs from '@/components/ContactUs.vue';
 import Footer from '@/components/Footer.vue';
 import Muskeeter from '@/components/Muskeeter.vue';
-
 </script>
 
 <template>
