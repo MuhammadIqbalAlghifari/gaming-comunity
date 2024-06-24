@@ -1,5 +1,5 @@
 <template>
-    <section class="flex lg:p-20 p-12 md:p-14 max-w-screen-2xl mx-auto flex-col justify-center h-full items-center w-full lg:gap-y-10 gap-y-5 lg:pt-40 md:pt-32 pt-24">
+    <section class="flex lg:p-20 p-8 md:p-14 max-w-screen-2xl mx-auto flex-col justify-center h-full items-center w-full lg:gap-y-10 gap-y-5 lg:pt-40 md:pt-32 pt-24">
         <article ref="topHero" class="flex flex-col gap-y-5 h-full justify-center items-center">
             <div class="flex justify-center items-center gap-x-3">
                 <a href="/" class="text-white text-xs">Home</a>

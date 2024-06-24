@@ -1,5 +1,5 @@
 <template>
-    <section class="lg:p-20 md:p-14 p-12 flex flex-wrap lg:flex-nowrap max-w-screen-2xl mx-auto lg:justify-between justify-center lg:items-start items-center w-full h-auto gap-y-5 lg:gap-x-10">
+    <section class="lg:p-20 md:p-14 p-8 flex flex-wrap lg:flex-nowrap max-w-screen-2xl mx-auto lg:justify-between justify-center lg:items-start items-center w-full h-auto gap-y-5 lg:gap-x-10">
         <div class="flex-col flex w-full lg:w-auto justify-center h-full lg:items-start items-center lg:gap-y-10 gap-y-5">
             <main v-for="(data, index) in leftNews" :key="index" ref="leftArticle" class="flex-col lg:max-w-xl w-full flex justify-center lg:items-start items-center gap-y-5">
                 <div class="flex-col flex justify-center lg:items-start items-center lg:gap-y-5 gap-y-3">

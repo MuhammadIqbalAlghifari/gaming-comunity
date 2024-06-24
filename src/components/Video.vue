@@ -1,5 +1,5 @@
 <template>
-    <section class="lg:p-20 md:p-14 p-12 max-w-screen-2xl mx-auto flex flex-wrap lg:flex-nowrap lg:justify-between justify-center gap-y-5 lg:gap-y-0 items-center w-full">
+    <section class="lg:p-20 md:p-14 p-8 max-w-screen-2xl mx-auto flex flex-wrap lg:flex-nowrap lg:justify-between justify-center gap-y-5 lg:gap-y-0 items-center w-full">
         <img ref="leftHero" src="/hero-video.png" class="w-full cursor-pointer h-full lg:max-w-2xl"/>
         <article ref="rightHero" class="flex flex-col justify-center lg:items-start items-center md:gap-y-5 gap-y-3 w-full lg:max-w-md">
             <h1 class="font-bold lg:leading-relaxed leading-relaxed lg:text-4xl md:text-2xl text-xl text-white">Lorem Ipsum is simply dummy text.</h1>

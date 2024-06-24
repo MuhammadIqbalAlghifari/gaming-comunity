@@ -1,5 +1,5 @@
 <template>
-    <section class="lg:p-20 p-12 md:p-14 flex flex-col max-w-screen-2xl mx-auto justify-center w-full items-center gap-y-10">
+    <section class="lg:p-20 p-8 md:p-14 flex flex-col max-w-screen-2xl mx-auto justify-center w-full items-center gap-y-10">
         <div ref="tittle" class="flex-col flex justify-center items-center gap-y-4">
             <h1 class="lg:text-4xl md:text-2xl text-xl text-white text-center">Say Hello</h1>
             <p class="lg:text-base text-sm text-white">Lorem Ipsum is simply dummy text of the printing.</p>

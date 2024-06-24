@@ -1,5 +1,5 @@
 <template>
-    <section class="lg:p-20 md:p-14 p-12 flex max-w-screen-2xl mx-auto flex-col justify-center items-center gap-y-10">
+    <section class="lg:p-20 md:p-14 p-8 flex max-w-screen-2xl mx-auto flex-col justify-center items-center gap-y-10">
         <h1 ref="tittle" class="text-white font-semibold text-2xl text-center">Our Team</h1>
         <div class="flex flex-col lg:flex-row gap-y-10 lg:gap-y-0 w-full justify-between gap-x-10 items-center">
             <main v-for="(data, index) in ourTeam" :key="index" ref="teamList" class="flex rounded-xl w-full flex-col justify-center items-center bg-[#1c1c1c] p-10 gap-y-5">

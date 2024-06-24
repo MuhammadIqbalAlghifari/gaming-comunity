@@ -1,6 +1,6 @@
 <template>
     <section class="flex flex-col max-w-screen-2xl mx-auto lg:flex-row lg:pl-20 lg:justify-between justify-center gap-y-10 lg:gap-y-0 items-center w-full lg:h-screen h-full">
-        <article ref="leftHero" class="flex lg:px-0 lg:py-0 px-12 pt-20 md:px-14 md:pt-24 flex-col lg:gap-y-8 gap-y-4 justify-center lg:items-start items-center">
+        <article ref="leftHero" class="flex lg:px-0 lg:py-0 px-8 pt-20 md:px-14 md:pt-24 flex-col lg:gap-y-8 gap-y-4 justify-center lg:items-start items-center">
             <div class="flex justify-center items-center gap-x-2">
                 <a href="/" class="text-white text-xs">Home</a>
                 <p class="text-white text-sm">></p>

@@ -1,5 +1,5 @@
 <template>
-    <main class="w-full lg:h-screen h-full max-w-screen-2xl mx-auto flex flex-wrap justify-between lg:px-20 lg:py-0 md:pt-24 md:px-14 pt-20 px-12 items-center">
+    <main class="w-full lg:h-screen h-full max-w-screen-2xl mx-auto flex flex-wrap justify-between lg:px-20 lg:py-0 md:pt-24 md:px-14 pt-20 px-8 items-center">
         <div ref="leftHero" class="flex lg:w-1/2 w-full flex-col justify-center items-center gap-y-4 lg:items-start">
             <p class="text-orange-600 lg:text-base md:text-sm text-xs font-bold">3D game dev</p>
             <h1 class="text-white lg:text-5xl md:text-3xl text-xl max-w-sm leading-normal lg:leading-normal text-center lg:text-start font-bold">Work that we produce for our clients</h1>

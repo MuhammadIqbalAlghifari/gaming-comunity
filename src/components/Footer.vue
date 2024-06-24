@@ -1,6 +1,6 @@
 <template>
     <section ref="footer" class="bg-black pt-10 flex flex-col justify-center items-center w-full">
-        <div class="flex lg:px-16 px-12 md:px-14 justify-between items-end h-auto w-full">
+        <div class="flex lg:px-16 px-8 md:px-14 justify-between items-end h-auto w-full">
             <div class="flex flex-wrap gap-10 lg:gap-0 justify-between items-start h-auto w-full">
                 <div class="flex flex-col gap-y-6 justify-center items-start">
                     <h1 class="lg:text-xl text-lg text-white font-bold">LOGO</h1>

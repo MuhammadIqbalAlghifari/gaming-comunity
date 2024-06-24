@@ -1,5 +1,5 @@
 <template>
-    <main class="relative w-full h-full max-w-screen-2xl lg:my-20 md:my-14 my-12 mx-auto">
+    <main class="relative w-full h-full max-w-screen-2xl lg:my-20 md:my-14 my-8 mx-auto">
         <img src="/service.jpg" class="w-full h-full blur-[2px] absolute -z-10 object-cover brightness-[20%]">
         <div class="py-20 px-10">
             <div ref="tittle" class="flex flex-col justify-center items-center gap-y-4">

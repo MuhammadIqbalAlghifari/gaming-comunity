@@ -1,5 +1,5 @@
 <template>
-    <section class="lg:p-10 md:p-14 p-12 max-w-screen-2xl mx-auto w-full">
+    <section class="lg:p-10 md:p-14 p-8 max-w-screen-2xl mx-auto w-full">
         <div class="flex flex-col w-full gap-y-5 justify-center items-center">
             <div ref="tittle" class="flex flex-col w-full md:gap-y-3 gap-y-1.5 justify-center items-center">
                 <h1 class="text-white lg:text-3xl md:text-xl text-base mx-auto tracking-wide text-center leading-loose max-w-2xl font-semibold">Our Recent Projects</h1>

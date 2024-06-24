@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col max-w-screen-2xl mx-auto md:gap-y-10 gap-y-5 justify-center items-center w-full h-auto lg:p-20 md:p-14 p-12">
+    <section class="flex flex-col max-w-screen-2xl mx-auto md:gap-y-10 gap-y-5 justify-center items-center w-full h-auto lg:p-20 md:p-14 p-8">
         <div ref="tittle" class="flex w-full justify-between items-center">
             <h1 class="text-white lg:text-2xl md:text-xl text-lg font-semibold">Currently Trending Games</h1>
             <button class="bg-[#1c1c1c] text-white rounded-md px-4 py-2 lg:text-base md:text-sm text-xs uppercase tracking-wide">see all</button>

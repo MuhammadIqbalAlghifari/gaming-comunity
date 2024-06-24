@@ -1,5 +1,5 @@
 <template>
-    <section class="lg:p-20 md:p-14 p-12 flex flex-col max-w-screen-2xl mx-auto lg:flex-row gap-y-10 lg:gap-y-0 w-full justify-between items-center">
+    <section class="lg:p-20 md:p-14 p-8 flex flex-col max-w-screen-2xl mx-auto lg:flex-row gap-y-10 lg:gap-y-0 w-full justify-between items-center">
         <img ref="leftHero" src="/muskeeter-about.png" class="w-full h-full object-cover lg:max-w-lg">
         <article ref="rightHero" class="flex-col flex justify-center lg:items-start items-center lg:gap-y-10 gap-y-5">
             <p class="text-white lg:text-sm text-xs">Lorem Ipsum</p>

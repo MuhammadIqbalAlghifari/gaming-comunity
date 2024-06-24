@@ -1,5 +1,5 @@
 <template>
-    <section class="flex-col lg:p-20 md:p-14 max-w-screen-2xl mx-auto p-12 flex w-ful h-full justify-center items-center gap-y-10">
+    <section class="flex-col lg:p-20 md:p-14 max-w-screen-2xl mx-auto p-8 flex w-ful h-full justify-center items-center gap-y-10">
         <div class="flex-col flex justify-center items-center gap-y-5 lg:gap-y-10">
             <h1 ref="tittleOne" class="font-semibold lg:max-w-md text-center lg:text-4xl md:text-2xl text-xl text-white">Trusted by Thousand of Happy Customer</h1>
             <p ref="tittleTwo" class="lg:text-sm text-xs lg:max-w-md text-center text-white font-extralight">Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum is simply.</p>
