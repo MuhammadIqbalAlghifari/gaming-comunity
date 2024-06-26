@@ -1,6 +1,6 @@
 <template>
     <header ref="navbarRef" class="fixed z-50 w-full">
-      <nav class="flex md:px-14 md:py-7 p-5 justify-between items-center w-full bg-black text-white">
+      <nav class="flex md:px-14 md:py-7 p-5 justify-between items-center w-full bg-[#050301] text-white">
         <MobileNav :open="open" @set-open="setOpen" />
         <h1 class="lg:text-2xl md:text-xl text-lg font-bold cursor-pointer">LOGO</h1>
         <ul class="md:flex hidden items-center justify-between w-[45%] xl:text-sm text-xs">
